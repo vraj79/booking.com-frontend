@@ -1,0 +1,141 @@
+.shContainer{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.shWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.bookNow{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.shTitle{
+    font-size: 24px;
+    margin: 0;
+}
+
+.shAddress{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shPriceHighLight{
+    color: #008009;
+    font-weight: 500;
+}
+
+.shDistance{
+    color: #0071c2;
+    font-weight: 500;
+}
+
+.shImages{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 5px;
+}
+
+.shImgWrapper{
+    width: 33%;
+}
+
+.shImg{
+    width: 100%;
+    height: 100%;
+}
+
+.shDetailsPrice h3,h2{
+    margin: 0;
+}
+
+.shDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.shDetailsTexts{
+    flex: 3;
+}
+
+.shDesc{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.shDetailsPrice{
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shDetailsPrice>button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 90vw;
+    height: 100vh;
+    z-index: 99;
+}
+
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sliderImg{
+    background-color: #0071c2;
+    width: 80%;
+    height: 90vh;
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: lightgray;
+}
+
+.arrow{
+    font-size: 40px;
+    color: lightgray;
+}

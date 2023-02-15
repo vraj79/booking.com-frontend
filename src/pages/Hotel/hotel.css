@@ -1,0 +1,86 @@
+.hotelContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hotelWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.hotelSearch{
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+.hsTitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.hsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.hsItem>label{
+    font-size: 12px;
+}
+
+.hsItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hsItem>span{
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hsOptions{
+    padding: 10px;
+}
+
+.hsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+
+.hsOptionInput{
+    width: 50px;
+}
+
+.hotelSearch>button{
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hotelResult{
+    flex:3
+}

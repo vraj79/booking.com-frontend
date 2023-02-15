@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+    margin: auto;
+}
+
+.fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.fList{
+    list-style: none;
+    padding: 0;
+}
+
+.fListItem{
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+}
+
+.fTextAgain{
+    color: gray;
+    text-align: center;
+    margin: 20px;
+}
+
+.fImages{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:775px) {
+    .fImages{
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+}

@@ -1,0 +1,45 @@
+.gst{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 13px;
+}
+
+.gstItem{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* font-size: ; */
+}
+
+.gstImg{
+    width: 100%;
+}
+
+.gstName{
+    font-weight: bold;
+}
+
+.gstCity{
+    font-weight: 300;
+}
+
+.gstPrice{
+    font-weight: 500;
+}
+
+.gstRating{
+    margin: 5px 5px 5px 0px;
+}
+
+.gstRating>button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 3px 3px 3px 0px;
+}
